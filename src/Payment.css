@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  height: 80%;
+}
+
+/* Background container styling */
+.background-container {
+  background-color: #080101;
+  background-image: url("./Pay.jpg"); /* Ensure the image path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-top: 60px; /* Space for the navbar */
+}
+
+/* Payment container styling */
+.payment-container {
+  position: relative;
+  width: 400px; /* Adjust to match your design */
+  height: 400px; /* Adjust to match your design */
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  top: 50px;
+  cursor: pointer;
+  overflow: hidden; /* Ensure pseudo-elements are within container */
+  transition: all 0.4s ease;
+  margin-top: 50px;
+  margin-left: 35%;
+  background: linear-gradient(
+    135deg,
+    rgba(118, 179, 232, 0.57),
+    rgba(92, 152, 208, 0.6)
+  ); /* Gradient background */
+}
+
+/* Elevation and additional hover effects */
+.payment-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for elevation */
+  transform: scale(1.05); /* Slight zoom effect */
+  border-top-color: white;
+  border-bottom-color: white;
+}
+/* Content styling */
+.payment-container h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.payment-container input {
+  width: 60%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Ensure input text field is visible */
+  color: #000; /* Text color inside the input */
+  transition: border-color 0.3s ease; /* Smooth border color change */
+}
+
+.payment-container input:focus {
+  border-color: #3084ac; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styling with hover effect */
+.payment-container button {
+  width: 40%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: rgba(96, 13, 13, 1);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.payment-container button:hover {
+  background-color: rgb(112, 23, 23); /* Darker color on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 8px rgb(112, 23, 23); /* Add shadow effect */
+}
+
+/* Paragraph styling */
+.payment-container p {
+  font-size: 20px;
+  color: #cdcccc;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.donation-input {
+  width: 60%;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white; /* Ensure background is visible */
+  color: black; /* Ensure text color is visible */
+}

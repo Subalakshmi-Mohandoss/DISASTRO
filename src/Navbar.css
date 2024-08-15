@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute space between items */
+  /* background-color: rgba(18, 3, 44, 0.9); */
+  /* background-color: rgba(64, 65, 72, 0.9); */
+  background-color: rgba(93, 13, 13, 0.774);
+  /* background:url("./abc.png"); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Typical height for a navbar */
+  padding: 0 20px; /* Horizontal padding for spacing */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Center logo vertically */
+}
+
+.logo-image {
+  height: 50px;
+  width: 150px; /* Adjust logo size to fit within navbar */
+}
+
+.home-button {
+  display: flex;
+  align-items: center; /* Center text vertically */
+}
+
+.home-link {
+  color: rgb(242, 242, 244);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a {
+  padding: 10px 20px;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(242, 242, 244);
+}
